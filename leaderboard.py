@@ -16,10 +16,10 @@ def writeLeaderboard(data):
 def playerWin(player):
     lb = readLeaderboard()
     if player in lb:
-        lb[player] += 1
+        lb[player] += 2
         writeLeaderboard(lb)
     else:
-        lb[player] = 1
+        lb[player] = 2
         writeLeaderboard(lb)
 
 def playerLose(player):
