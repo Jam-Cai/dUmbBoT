@@ -18,7 +18,7 @@ import time
 
 # initiate bot
 bot = commands.Bot(command_prefix=("baka ", "Baka ", "$"))
-
+token = "dont even think about stealing my token"
 
 # logging
 logger = logging.getLogger('discord')
@@ -379,4 +379,4 @@ async def h(ctx):
 
     
 # run bot
-bot.run('NzQ2NDc1ODYzOTQzNTQ0OTQy.X0A30g.d5arIsqSJf79RqWPRGFMjlqH04A')
+bot.run(token)
