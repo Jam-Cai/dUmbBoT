@@ -23,3 +23,17 @@ This is a Discord bot that allows users to play Rock Paper Scissors against the 
    git clone https://github.com/yourusername/discord-rps-bot.git
    cd discord-rps-bot
    ```
+2. Install the required libraries:
+   ```bash
+   pip install discord.py
+   ```
+
+3. Replace the token in `discordbot.py` with your own bot token:
+   ```python
+   token = "your_bot_token_here"
+   ```
+
+4. Run the bot:
+   ```bash
+   python discordbot.py
+   ```
